@@ -4,133 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Park | Software Architect</title>
-    <style>
-        :root {
-            --bg-color: #f8fafc;
-            --container-bg: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #475569;
-            --border-color: #cbd5e1;
-            --accent-blue: #0284c7;
-            --bg-badge: #e0f2fe;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.5;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            padding: 40px 20px;
-        }
-
-        .container {
-            max-width: 850px;
-            margin: 0 auto;
-            background: var(--container-bg);
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-        }
-
-        /* Header Layout */
-        header {
-            margin-bottom: 25px;
-        }
-
-        h1 { 
-            margin: 0 0 10px 0; 
-            font-size: 2.5rem; 
-            font-weight: 700;
-            letter-spacing: -0.025em;
-        }
-
-        .contact-info {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            margin-bottom: 15px;
-        }
-
-        .clearance {
-            display: inline-block;
-            background: var(--bg-badge);
-            color: var(--accent-blue);
-            padding: 6px 14px;
-            border-radius: 4px;
-            font-weight: bold;
-            font-size: 0.85rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-        }
-
-        /* Typography & Structure */
-        h2 { 
-            color: var(--text-main); 
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-bottom: 2px solid var(--border-color); 
-            padding-bottom: 4px; 
-            margin: 30px 0 15px 0;
-        }
-
-        p {
-            margin: 0 0 15px 0;
-            color: var(--text-muted);
-        }
-
-        .job-header, .project-header, .edu-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            font-weight: bold;
-            margin-top: 15px;
-            margin-bottom: 5px;
-        }
-
-        .job-title, .project-title, .edu-title {
-            color: var(--text-main);
-        }
-
-        .job-meta, .project-date, .edu-date {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            font-weight: normal;
-        }
-
-        /* Lists & Technical Bullets */
-        ul { 
-            padding-left: 20px; 
-            margin: 0 0 20px 0;
-        }
-
-        li { 
-            margin-bottom: 6px; 
-            color: var(--text-muted);
-        }
-
-        li strong {
-            color: var(--text-main);
-        }
-
-        .skills-list li {
-            list-style-type: none;
-            margin-bottom: 8px;
-        }
-
-        /* Responsive Breakpoint */
-        @media (max-width: 600px) {
-            body { padding: 20px 10px; }
-            .container { padding: 20px; }
-            .job-header, .project-header, .edu-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .job-meta, .project-date, .edu-date {
-                margin-top: 2px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -150,7 +24,7 @@
     <ul class="skills-list" style="padding-left: 0;">
         <li><strong>Core Competencies:</strong> System Architecture, Full-Stack Dev, Data Structures & Algorithms, Systems Programming, Machine Learning, Agile/SAFe</li>
         <li><strong>Languages & Databases:</strong> Python, SQL, C++, C, JavaScript, HTML/CSS, Java, MongoDB, Kotlin, Cypher</li>
-        <li><strong>Tools & Platforms:</strong> Git, GitHub, React, Streamlit, Advana, Jira, CI/CD, DevSecOps</li>
+        <li><strong>Tools & Platforms:</strong> Git, GitHub, React, Streamlit, Advana, Jira, CI/CD, DevSecOps, Google Colab</li>
         <li><strong>Certifications:</strong> Leading SAFe, Workday Pro (Integration, HCM Reporting, Prism Analytics)</li>
     </ul>
 
@@ -215,12 +89,16 @@
         <span class="edu-title">University of Illinois at Urbana-Champaign &nbsp;|&nbsp; B.S. in Computer Science Engineering</span>
         <span class="edu-date">Graduated August 2023</span>
     </div>
-    <p style="margin-left: 20px; font-size: 0.95rem;">GPA: 3.56/4.0 &nbsp;|&nbsp; Concentration: Big Data & Databases &nbsp;|&nbsp; Minor: Psychology</p>
+    <p style="margin-left: 20px; font-size: 0.95rem; margin-bottom: 20px;">GPA: 3.56/4.0 &nbsp;|&nbsp; Concentration: Big Data & Databases &nbsp;|&nbsp; Minor: Psychology</p>
 
-    <div class="edu-header" style="margin-top: 10px;">
+    <div class="edu-header">
         <span class="edu-title">Howard University &nbsp;|&nbsp; Technical Workshop Facilitator (Volunteer)</span>
         <span class="edu-date">October 2024 – October 2025</span>
     </div>
     <ul>
         <li>Instructed 50+ Executive Leadership students on MySQL query optimization and relational database management.</li>
     </ul>
+</div>
+
+</body>
+</html>
